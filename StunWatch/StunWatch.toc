@@ -2,6 +2,7 @@
 ## Interface: 10900
 ## Title: StunWatch
 ## Notes: Displays a progress bar for Rogue stuns
+## Notes-ruRU: Отображает индикаторы оглушений Разбойника
 ## Author: Vector-
 ## SavedVariables: StunWatch_Save
 ## OptionalDeps:

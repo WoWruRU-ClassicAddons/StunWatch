@@ -55,6 +55,63 @@ STUNWATCH_HELP13 = " width  : Set bar width, use 50 to 300"
 STUNWATCH_HELP14 = " alpha  : Set bar alpha, use 0 to 1"
 STUNWATCH_HELP15 = " grow   : Set bar growth up, down or off"
 
+-- Version : Russian ( by Maus )
+if( GetLocale() == "ruRU" ) then
+STUNWATCH_PROFILE_TEXT = "Профиль: "
+
+STUNWATCH_TEXT_ON = "(.+) находится под воздействием эффекта \"(.+)\"."
+STUNWATCH_TEXT_BREAK = "(.+) теряет \"(.+)\"."
+STUNWATCH_TEXT_OFF = "Действие эффекта \"(.+)\", наложенного на (.+), заканчивается."
+
+STUNWATCH_GOUGE = "Парализующий удар"
+STUNWATCH_BLIND = "Ослепление"
+STUNWATCH_KS = "Удар по почкам"
+STUNWATCH_CS = "Подлый трюк"
+STUNWATCH_SAP = "Ошеломление"
+STUNWATCH_EXPOSE = "Ослабление доспеха"
+
+STUNWATCH_GOUGE_RANK = "Улучшенный парализующий удар Ранг"
+STUNWATCH_KS_RANK = "Улучшенный удар по почкам Ранг"
+STUNWATCH_SAP_RANK = "Улучшенное ошеломление Ранг"
+
+STUNWATCH_ENABLED = "StunWatch включен"
+STUNWATCH_DISABLED = "StunWatch отключен"
+
+STUNWATCH_LOCKED = "StunWatch заблокирован"
+STUNWATCH_UNLOCKED = "StunWatch разблокирован"
+
+STUNWATCH_INVERSION_ON = "StunWatch инверсия вкл"
+STUNWATCH_INVERSION_OFF = "StunWatch инверсия выкл"
+
+--STUNWATCH_GROW_OFF = "StunWatch bar growth off"
+--STUNWATCH_GROW_UP = "StunWatch bar growth up"
+--STUNWATCH_GROW_DOWN = "StunWatch bar growth down"
+
+--STUNWATCH_SCALE = "StunWatch Scale set to "
+
+--STUNWATCH_WIDTH = "StunWatch Width set to "
+
+--STUNWATCH_ALPHA = "StunWatch Alpha set to "
+
+STUNWATCH_LOADED = " Загружен - /sw"
+
+STUNWATCH_HELP1  = " : Используйте - /sw опции"
+STUNWATCH_HELP2  = "опции:"
+STUNWATCH_HELP3  = " on     : Включить StunWatch"
+STUNWATCH_HELP4  = " off    : Отключить StunWatch"
+STUNWATCH_HELP5  = " lock   : Заблокировать StunWatch и вкдючение"
+STUNWATCH_HELP6  = " unlock : Позволяет перемещать StunWatch"
+STUNWATCH_HELP7  = " g      : Авто-обнаружение ранга улучшенного парализующего удара"
+STUNWATCH_HELP8  = " k      : Авто-обнаружение ранга улучшенного удара по почкам"
+STUNWATCH_HELP9  = " s      : Авто-обнаружение ранга улучшенного ошеломления"
+STUNWATCH_HELP10 = " print  : Отобразить текущую конфигурацию"
+STUNWATCH_HELP11 = " invert : Инвертировать окно"
+--STUNWATCH_HELP12 = " scale  : Scale StunWatch, use 0.25 to 3.0"
+--STUNWATCH_HELP13 = " width  : Set bar width, use 50 to 300"
+--STUNWATCH_HELP14 = " alpha  : Set bar alpha, use 0 to 1"
+--STUNWATCH_HELP15 = " grow   : Set bar growth up, down or off"
+end
+
 -- DE
 
 if( GetLocale() == "deDE" ) then
